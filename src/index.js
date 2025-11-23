@@ -18,7 +18,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",                   // Vite local
-      "https://tiny-link-frontend-beta.vercel.app/"   // Correct Vercel domain
+      "https://tiny-link-frontend-beta.vercel.app"   // ✅ NO trailing slash
     ],
     credentials: true, // allows cookies/headers if needed
   })
